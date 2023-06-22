@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="click point x" type="I" value="70"/>
+					<Prp name="object top" type="I" value="105"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="object name" type="S" value="Aliases.java.TelaLogin.RootPane.null_layeredPane.null_contentPane.ToggleButton"/>
+					<Prp name="object right" type="I" value="121"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45099.0432152546"/>
+					<Prp name="object bottom" type="I" value="127"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="20"/>
+					<Prp name="click point y" type="I" value="116"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45098.9182203472"/>
+			<Prp name="remarks" type="S" value="The control state has been changed to 'checked'.&#xA;&#xA;Tested object:&#xA;Aliases.java.TelaLogin.RootPane.null_layeredPane.null_contentPane.ToggleButton&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;TelaLogin&quot;, &quot;CofrePessoal - Login&quot;, 0).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JToggleButton&quot;, &quot;Login&quot;, 0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The toggle button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="date" type="D" value="45098.9181842361"/>
+			<Prp name="remarks" type="S" value="The process ID is 7264."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="message" type="S" value="The application &quot;C:\Program Files\Java\jdk-17.0.1\Bin\java.exe  -jar &quot;C:\Users\chinelo\Documents\NetBeansProjects\CofrePessoal\dist_modificada_para_teste\CofrePessoal.jar&quot;&quot; started."/>
+			<Prp name="line no" type="I" value="3"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="item 0">
+			<Prp name="stacktext" type="S" value=""/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="unit id" type="I" value="0"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="7"/>
+					<Prp name="click point x" type="I" value="104"/>
+					<Prp name="object top" type="I" value="71"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="object name" type="S" value="Aliases.java.TelaLogin.RootPane.null_layeredPane.null_contentPane.PasswordField"/>
+					<Prp name="object right" type="I" value="206"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45099.0432118982"/>
+					<Prp name="object bottom" type="I" value="93"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="66"/>
+					<Prp name="click point y" type="I" value="89"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45098.9182127083"/>
+			<Prp name="remarks" type="S" value="A click at point (38, 18) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.java.TelaLogin.RootPane.null_layeredPane.null_contentPane.PasswordField&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;TelaLogin&quot;, &quot;CofrePessoal - Login&quot;, 0).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPasswordField&quot;, &quot;&quot;, 0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="7"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="5"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="43"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="object name" type="S" value="Aliases.java.TelaLogin.RootPane.null_layeredPane.null_contentPane.FormattedTextField"/>
+					<Prp name="object right" type="I" value="228"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45099.043210625"/>
+					<Prp name="object bottom" type="I" value="65"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="66"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45098.9182108565"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.java.TelaLogin.RootPane.null_layeredPane.null_contentPane.FormattedTextField&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;TelaLogin&quot;, &quot;CofrePessoal - Login&quot;, 0).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JFormattedTextField&quot;, &quot;&quot;, 0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The text 'qwe' was entered in the text editor."/>
+			<Prp name="line no" type="I" value="5"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{4222CCFF-CAFB-4705-8EAA-9159C49B1F13}"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="click point x" type="I" value="424"/>
+					<Prp name="object top" type="I" value="270"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="object name" type="S" value="Aliases.java.TelaPrincipal.RootPane.null_layeredPane.null_contentPane.Button"/>
+					<Prp name="object right" type="I" value="458"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45099.0432217361"/>
+					<Prp name="object bottom" type="I" value="292"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="391"/>
+					<Prp name="click point y" type="I" value="281"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45098.9182231134"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.java.TelaPrincipal.RootPane.null_layeredPane.null_contentPane.Button&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;TelaPrincipal&quot;, &quot;CofrePessoal - Pesquisa&quot;, 0).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JButton&quot;, &quot;Logoff&quot;, 3))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 7">
+			<Prp name="date" type="D" value="45098.9182360301"/>
+			<Prp name="remarks" type="S" value="Possible reasons:&#xA; - An error or warning occurred during the test run. See the preceding log entries to locate and identify the error.&#xA; - The test run was stopped manually.&#xA; - The test run was terminated as a result of the Runner.Halt method call."/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="stack beginning" type="I" value="0"/>
+			<Prp name="stack end" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="3"/>
+			<Prp name="message" type="S" value="The script execution was interrupted."/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="2"/>
+			<Prp name="picture" type="S" value="Picture1.png"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="click point x" type="I" value="142"/>
+					<Prp name="object top" type="I" value="87"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="object name" type="S" value="Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button"/>
+					<Prp name="object right" type="I" value="178"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45099.0432245139"/>
+					<Prp name="object bottom" type="I" value="109"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="106"/>
+					<Prp name="click point y" type="I" value="98"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45098.918225787"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.java.Dialog.RootPane.null_layeredPane.null_contentPane.OptionPane.OptionPane_buttonArea.OptionPane_button&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;JDialog&quot;, &quot;CofrePessoal&quot;, -1, 1).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JOptionPane&quot;, &quot;&quot;, 0).SwingObject(&quot;OptionPane.buttonArea&quot;).SwingObject(&quot;OptionPane.button&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object top" type="I" value="71"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="object name" type="S" value="Aliases.java.TelaLogin.RootPane.null_layeredPane.null_contentPane.PasswordField"/>
+					<Prp name="object right" type="I" value="206"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="datetime" type="D" value="45099.0432136343"/>
+					<Prp name="object bottom" type="I" value="93"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object left" type="I" value="66"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="kind" type="I" value="0"/>
+				</Node>
+			</Node>
+			<Prp name="date" type="D" value="45098.9182138657"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.java.TelaLogin.RootPane.null_layeredPane.null_contentPane.PasswordField&#xA;(Sys.Process(&quot;java&quot;).SwingObject(&quot;TelaLogin&quot;, &quot;CofrePessoal - Login&quot;, 0).SwingObject(&quot;JRootPane&quot;, &quot;&quot;, 0).SwingObject(&quot;null.layeredPane&quot;).SwingObject(&quot;null.contentPane&quot;).SwingObject(&quot;JPasswordField&quot;, &quot;&quot;, 0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="message" type="S" value="The value of the CofrePessoal_Teste.CofrePessoal_Teste.Password1 variable was entered in the text editor."/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+		</Node>
+		<Prp name="status" type="I" value="2"/>
+	</Node>
+</Nodes>
